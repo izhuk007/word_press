@@ -1,9 +1,77 @@
-.body {
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+.promo {
+    height: 800px;
+    background: url("../img/promo.jpg") center center/ cover  no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_img {
+   display: block;
+}
+
+.logo_text {
+    margin-top: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.title__big {
+    color: #ffff;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.promo .promo__text {
+    color: #ffff;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 23px;
+    padding: 0 13px;
+}
+
+.promo .promo__text span {
+    color: #f9bf3b;
+    font-weight: 600;
 }
